@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/algorithms-with-leaflet/static/css/main.21c62728.chunk.css",
+    "main.js": "/algorithms-with-leaflet/static/js/main.bf6f35fd.chunk.js",
+    "main.js.map": "/algorithms-with-leaflet/static/js/main.bf6f35fd.chunk.js.map",
+    "runtime-main.js": "/algorithms-with-leaflet/static/js/runtime-main.87c49b5f.js",
+    "runtime-main.js.map": "/algorithms-with-leaflet/static/js/runtime-main.87c49b5f.js.map",
+    "static/js/2.2403136c.chunk.js": "/algorithms-with-leaflet/static/js/2.2403136c.chunk.js",
+    "static/js/2.2403136c.chunk.js.map": "/algorithms-with-leaflet/static/js/2.2403136c.chunk.js.map",
+    "index.html": "/algorithms-with-leaflet/index.html",
+    "precache-manifest.829a0932050505e13c72b3efb7077dd0.js": "/algorithms-with-leaflet/precache-manifest.829a0932050505e13c72b3efb7077dd0.js",
+    "service-worker.js": "/algorithms-with-leaflet/service-worker.js",
+    "static/css/main.21c62728.chunk.css.map": "/algorithms-with-leaflet/static/css/main.21c62728.chunk.css.map",
+    "static/js/2.2403136c.chunk.js.LICENSE": "/algorithms-with-leaflet/static/js/2.2403136c.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87c49b5f.js",
+    "static/js/2.2403136c.chunk.js",
+    "static/css/main.21c62728.chunk.css",
+    "static/js/main.bf6f35fd.chunk.js"
+  ]
+}
