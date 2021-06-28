@@ -92,6 +92,18 @@
     {
       "type": "bikepark",
       "properties": {
+        "PARK_ID": 9,
+        "NAME": "Leogang",
+        "WEBSITE": "https://bikepark.saalfelden-leogang.com/de"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.439248369668775, 12.719107611793177]
+      }
+    },
+    {
+      "type": "bikepark",
+      "properties": {
         "PARK_ID": 4,
         "NAME": "Samerberg",
         "WEBSITE": "https://www.bikepark-samerberg.de/"
