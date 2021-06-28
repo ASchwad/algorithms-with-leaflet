@@ -3,6 +3,8 @@ import { Map, Marker, Popup, TileLayer, Polyline } from "react-leaflet";
 import * as parkData from "./data/bikeparks.json";
 import "./App.css";
 import {crowDistance} from './crowDistance'
+import { dcClosestpair } from "./DC_closestPair";
+import _ from "lodash";
 
 const randomLines = () => {
   return parkData.features.map((park, key) => {
@@ -16,13 +18,15 @@ const randomLines = () => {
         nextPark.geometry.coordinates
       ]}
       onmouseover={(x) => {
-        alert(`Distanz zwischen ${park.properties.NAME} und ${nextPark.properties.NAME} beträgt ${crowDistance(park.geometry.coordinates, nextPark.geometry.coordinates, "K")} km.`)
+        alert(`Distanz zwischen ${park.properties.NAME} und ${nextPark.properties.NAME} beträgt ${crowDistance(park.geometry.coordinates, nextPark.geometry.coordinates)} km.`)
       }}
     />
   })
 }
 
 export default function App() {
+  console.log("CLOSEST PAIR Distance: ",dcClosestpair(_.sortBy(parkData.features, [function(o) { return o.geometry.coordinates[1]}])))
+  
   const [activePark, setActivePark] = React.useState(null);
   return (
     <Map center={[48.9657065, 10.9764000000002]} zoom={7}>
