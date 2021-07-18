@@ -1,0 +1,124 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "edge",
+      "properties": {
+        "from": 1,
+        "to": 2
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 1,
+        "to": 3
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 2,
+        "to": 3
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 3,
+        "to": 2
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 3,
+        "to": 5
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 3,
+        "to": 6
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 4,
+        "to": 6
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 5,
+        "to": 2
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 6,
+        "to": 7
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 1,
+        "to": 7
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 7,
+        "to": 1
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 8,
+        "to": 6
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 6,
+        "to": 8
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 1,
+        "to": 0
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 4,
+        "to": 0
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 7,
+        "to": 4
+      }
+    },
+    {
+      "type": "edge",
+      "properties": {
+        "from": 8,
+        "to": 5
+      }
+    }
+  ]
+}

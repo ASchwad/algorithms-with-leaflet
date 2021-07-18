@@ -18,6 +18,6 @@ export function crowDistance(coordinates1, coordinates2) {
 		dist = dist * 60 * 1.1515;
 		dist = dist * 1.609344 
 		
-		return dist.toFixed(2);
+		return parseFloat(dist);
 	}
 }
